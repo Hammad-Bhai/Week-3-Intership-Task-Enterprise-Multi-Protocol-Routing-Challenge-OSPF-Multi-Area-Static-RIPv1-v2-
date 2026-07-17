@@ -1,0 +1,49 @@
+Jul 16 12:36:05.453 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 16 12:36:05.456 HYPERVISOR: Started on IP = localhost, TCP port = 57286.
+Jul 16 12:36:05.928 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 16 12:36:05.928 HYPERVISOR: exec_cmd: hypervisor working_dir D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips 
+Jul 16 12:36:05.928 GENERAL: working_dir=D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips
+Jul 16 12:36:05.928 HYPERVISOR: exec_cmd: hypervisor working_dir D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips\b1d1cda9-ea8a-4985-9ad8-29c0d8a63161 
+Jul 16 12:36:05.928 GENERAL: working_dir=D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips\b1d1cda9-ea8a-4985-9ad8-29c0d8a63161
+Jul 16 12:36:05.933 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Jul 16 12:36:05.933 VM: VM R2 created.
+Jul 16 12:36:05.936 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Jul 16 12:36:05.936 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Jul 16 12:36:05.936 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60bec7a8 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Hammad Bhai/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T5.image 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.37f8.0000 
+Jul 16 12:36:05.939 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jul 16 12:36:05.944 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:36:05.944 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Jul 16 12:36:05.945 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:36:05.945 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Jul 16 12:36:15.631 HYPERVISOR: exec_cmd: nio create_udp udp-54fe5935-fd76-4f9b-9d3c-4862c8484e0c 10026 127.0.0.1 10027 
+Jul 16 12:36:15.907 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-54fe5935-fd76-4f9b-9d3c-4862c8484e0c 
+Jul 16 12:36:15.907 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:36:18.995 HYPERVISOR: exec_cmd: nio create_udp udp-20bbb021-ce57-4dc1-8089-bd72ff3f479d 10078 127.0.0.1 10079 
+Jul 16 12:36:19.002 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-20bbb021-ce57-4dc1-8089-bd72ff3f479d 
+Jul 16 12:36:19.002 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:36:19.984 HYPERVISOR: exec_cmd: nio create_udp udp-9a45012c-e20d-4608-ba40-a991c7823620 10110 127.0.0.1 10111 
+Jul 16 12:36:19.997 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-9a45012c-e20d-4608-ba40-a991c7823620 
+Jul 16 12:36:19.997 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:37:21.455 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jul 16 12:37:21.457 HYPERVISOR: exec_cmd: vm set_ghost_file R2 D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T5.image-128.ghost 
+Jul 16 12:37:21.457 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 12:37:21.457 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jul 16 12:37:21.457 HYPERVISOR: exec_cmd: vm start R2 
+Jul 16 12:37:51.970 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 16 12:37:51.986 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 16 14:50:24.251 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 16 14:50:24.275 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 16 18:05:14.835 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 16 18:05:14.836 HYPERVISOR: exec_cmd: vm stop R2 
+Jul 16 18:05:15.004 VM: VM R2 shutdown.
+Jul 16 18:05:15.006 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 16 18:05:15.009 HYPERVISOR: exec_cmd: vm delete R2 
+Jul 16 18:05:15.009 VM: VM R2 destroyed.
+Jul 16 18:05:15.011 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 16 18:05:15.184 HYPERVISOR: Stopped.
+Jul 16 18:05:15.185 GENERAL: reset done.

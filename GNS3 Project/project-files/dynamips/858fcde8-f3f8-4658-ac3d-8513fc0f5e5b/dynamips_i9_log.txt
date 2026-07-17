@@ -1,0 +1,19 @@
+Jul 16 12:36:09.764 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 16 12:36:09.764 HYPERVISOR: Started on IP = localhost, TCP port = 57307.
+Jul 16 12:36:10.255 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 16 12:36:10.255 HYPERVISOR: exec_cmd: hypervisor working_dir D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips 
+Jul 16 12:36:10.255 GENERAL: working_dir=D:\IT-Simplera Solutions Intership\Tasks\Week 3\GNS3 Project\project-files\dynamips
+Jul 16 12:36:10.255 HYPERVISOR: exec_cmd: ethsw create Switch8 
+Jul 16 12:36:14.373 HYPERVISOR: exec_cmd: nio create_udp udp-1e9fdc03-9f54-4d71-a2e0-39000dd2111b 10013 127.0.0.1 10012 
+Jul 16 12:36:14.381 HYPERVISOR: exec_cmd: ethsw add_nio Switch8 udp-1e9fdc03-9f54-4d71-a2e0-39000dd2111b 
+Jul 16 12:36:14.405 HYPERVISOR: exec_cmd: ethsw set_access_port Switch8 udp-1e9fdc03-9f54-4d71-a2e0-39000dd2111b 1 
+Jul 16 12:36:14.528 HYPERVISOR: exec_cmd: nio create_udp udp-ae285df2-6469-4f00-b5a2-7cab0055935e 10015 127.0.0.1 10014 
+Jul 16 12:36:14.533 HYPERVISOR: exec_cmd: ethsw add_nio Switch8 udp-ae285df2-6469-4f00-b5a2-7cab0055935e 
+Jul 16 12:36:14.565 HYPERVISOR: exec_cmd: ethsw set_access_port Switch8 udp-ae285df2-6469-4f00-b5a2-7cab0055935e 1 
+Jul 16 12:36:16.022 HYPERVISOR: exec_cmd: nio create_udp udp-785e6602-a10b-4685-8878-2179cfa7cf73 10028 127.0.0.1 10029 
+Jul 16 12:36:16.022 HYPERVISOR: exec_cmd: ethsw add_nio Switch8 udp-785e6602-a10b-4685-8878-2179cfa7cf73 
+Jul 16 12:36:16.036 HYPERVISOR: exec_cmd: ethsw set_access_port Switch8 udp-785e6602-a10b-4685-8878-2179cfa7cf73 1 
+Jul 16 18:05:14.429 HYPERVISOR: exec_cmd: ethsw delete Switch8 
+Jul 16 18:05:14.521 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 16 18:05:14.655 HYPERVISOR: Stopped.
+Jul 16 18:05:14.655 GENERAL: reset done.
