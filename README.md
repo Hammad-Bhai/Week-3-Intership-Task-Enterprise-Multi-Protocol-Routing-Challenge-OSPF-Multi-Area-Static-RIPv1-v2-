@@ -36,7 +36,7 @@ Repository Layout
 Core Modules Covered
 ------------------------------------------------------------------------
 1. Multi-Area OSPF Deployment
-   * Segregated topology (Area 0, Area 1, Area 2) to minimize SPF overhead.
+   * Segregated topology (Area 0, Area 1) to minimize SPF overhead.
    * Dynamic neighbor adjacencies synchronized through an Area Border Link (R3 to R4).
 
 2. RIP v1/v2 Routing Domain
